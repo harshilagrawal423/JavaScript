@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var product_id="Apple"
+        var product_price="null"
+        var product_status="null"
+        var product_name="Apple"
+        var a = undefined
+        document.write("product_id is:" +product_id)
+        var Product_info=new Array()
+        Product_info[0]=1001
+        Product_info[1]="Mobile"
+        Product_info[2]=31000
+        Product_info[3]="Samsung"
+        console.log(Product_info)
+        console.log(Product_info[0])
+        console.log(Product_info[1])
+        console.log(Product_info[2])
+        console.log(Product_info[3])
+        var Product_Info=new Array(1001,"Mobile",31000,"Samsung")
+        console.log(Product_Info)
+        document.write(Product_Info)
+        document.write('<br>')
+        var e_Details=[]
+        e_Details.push(1001,"Rahul Sharma",2700)
+        document.write(e_Details)
+        document.write("<hr>")
+        e_Details.pop()
+        document.write(e_Details)
+        document.write("<hr>")
+        e_Details.pop()
+        document.write(e_Details)
+        document.write("<hr>")
+        e_Details.pop
+
+
+        function Employee(First_Name,Last_Name){
+            this.First_Name="Rahul"
+            this.Last_Name= "Sharma"
+        }
+        var E1= new Employee()
+        console.log("First_Name:"+E1.First_Name)
+        console.log("Last_Name:"+E1.Last_Name)
+        document.write(E1.First_Name)
+        document.write('<br>')
+        document.write(E1.Last_Name)
+        document.write('<br>')
+
+
+        function Test_Case1()
+        {
+            // window.alert('Welcome to functions in js')
+            console.log("Welcome to functions in js")
+        }
+        Test_Case1()
+        Test_Case1()
+
+
+        // function Test_Case(Eid,Ename,Esal,Designation,Company)
+        // {
+        //     console.log("Eid is:"+Eid)
+        //     console.log("Ename is:"+Ename)
+        //     console.log("Esal is:"+Esal)
+        //     console.log("Designation is:"+Designation)
+        //     console.log("Company is:"+Company)
+        // }
+        // Test_Case(1001,"Harshil Agrawal",600000,"Data Analyst",ATS)
+
+
+        // function Test_Case2()
+        // {
+        //     document.write("Angular Engineer")
+        //     document.write("<hr>")
+        //     return "Wipro technologies"
+        // }
+        // Test_Case2()
+
+
+        function square(num)
+        {
+            return num*num
+        }
+        var result = square(4)
+        console.log('the square of 4:'+square(4))
+        console.log('the square of 5:'+square(5))
+
+
+        // function sum(num1,num2)
+        // {
+        // return num1+num2;
+        // }
+        // var result=sum(10,20)
+        // console.log('The sum of 10,20:'+result)
+        // document.write('The sum of 10,20 is:'+result)
+        // document.write('<br>')
+
+
+        // function capitalize(str){
+        //     return str[0].toUpperCase()+str.slice(1);
+        // }
+        // console.log(capitalize('rahul'))
+
+
+        
+</script>
+</body>
+</html>
